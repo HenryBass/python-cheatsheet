@@ -204,7 +204,7 @@ while spam < 5:
 
 ### break Statements
 
- If the execution reaches a break statement, it immediately exits the while loop’s clause:
+ "While True" creates an infinite loop. If the execution reaches a break statement, it immediately exits the while loop’s clause:
 
 ```python
 while True:
@@ -242,7 +242,7 @@ for i in range(5):
     print('Jimmy Five Times ({})'.format(str(i)))
 ```
 
-The *range()* function can also be called with three arguments. The first two arguments will be the start and stop values, and the third will be the step argument. The step is the amount that the variable is increased by after each iteration.
+The *range()* function can also be called with three arguments. The first two arguments will be the start and stop values, and the third will be the step argument. The step is the amount that the variable is increased by after each iteration. You don't need to pre-define i.
 
 ```python
 for i in range(0, 10, 2):
